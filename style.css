@@ -1,0 +1,128 @@
+
+body {
+    font: sans-serif;
+    color: #DBE9F4;
+    line-height: 135%;
+    font-family: san-serif;
+    color: #676C70;
+    background-image: url(images/images-20.jpeg);
+    margin: 5px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #0A0A0A;
+}
+
+.active {
+  background-color:  #0A0A0A;
+}
+.space{
+  line-height: 115%;
+}
+.metalblue{
+    color: #32527B;
+}
+.sidethings{
+    float: left;
+}
+.right-side{
+    float: right;
+}
+/*.box{
+    padding: 30px;
+    margin: 5px;
+}*/
+h5{
+    color:#87CEEB ;
+    text-transform: capitalize;
+    text-decoration: none;
+    text-shadow: aliceblue 1px 0 10px;
+    
+}
+h4{
+   color:#0A0A0A ;
+}
+h3{
+   color: #292929;
+}
+h2{
+   color:#E7EFE2;
+   text-indent: 15px;
+}
+/*p{
+    text-indent: 3.5px;
+}*/
+ul.box{
+    list-style-type: none;
+    color: #000000;
+    padding: 15px;
+    margin: 13px;
+    background-color: navy;
+    background-image: none;
+    border-radius: 30px;
+    
+}
+.logo{
+    width: 48px;
+    height: 48px;
+}
+.logobar{
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row nowrap ;
+    padding: 20px;
+    margin: 25px;
+}
+hr{
+    color: navy;
+    width: 75%;
+}
+footer{
+    text-align: center;
+}
+#searchbar {
+  margin-left: 15%;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+input[type=text] {
+  width: 30%;
+  -webkit-transition: width 0.15s ease-in-out;
+  transition: width 0.15s ease-in-out;
+}
+
+/* When the input field gets focus, 
+        change its width to 100% */
+input[type=text]:focus {
+  width: 70%;
+}
+
+#list {
+  font-size: 1.5em;
+  margin-left: 90px;
+}
+
+.content{
+  display: list-item;
+}
